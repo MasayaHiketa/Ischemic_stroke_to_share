@@ -1,6 +1,4 @@
-##Preprocessing data and logistic regression##
-
-By typing these command, you will get result.
+Download whole file as zip and unarchive it,then by typing these command, you will get result.
 
     pip install -r requirement.txt
     python LR_2_4.py
