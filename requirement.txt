@@ -1,0 +1,7 @@
+pandas
+numpy
+wfdb
+scipy
+neurokit2
+matplotlib
+scikit-learn
