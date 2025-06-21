@@ -220,7 +220,7 @@ os.makedirs(local_dir, exist_ok=True)
 label_df = pd.read_csv(r"20241206_010627mimic-iii-wave-match-BasicTable-icd.csv")
 dead_ids = label_df[label_df['death'] == 1]['subject_id'].unique()
 
-hrv_path = 'extracted_data_6_8.csv'
+hrv_path = 'extracted_data_6_8_for_you.csv'
 
 # 既存ファイルの subject_id を読み込む（あれば）
 existing_ids = set()
