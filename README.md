@@ -31,6 +31,8 @@ The extracted data csv  which I already did is
 
 if you want to extract by yourself,
 
+    Conect to \\140.112.28.172\mimic3wdb-matched-v1.0
+
     pip install -r requirement.txt
     (for installing neccesary things)
 
