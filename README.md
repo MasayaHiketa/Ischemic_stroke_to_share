@@ -1,6 +1,7 @@
 1.Extract 5-min window hrv data from mimic-3 data(for 2-4hours,6-8hours,10-12hours),it will take several hours for each.
 
 The extracted data csv  which I already did is 
+
     extracted_data_2_4_alreadydone.csv
     extracted_data_6_8_alreadydone.csv
     extracted_data_10_12_alreadydone.csv
@@ -28,11 +29,13 @@ if you want to extract by yourself,
     python LR_10_12.py
 
 Which is doing
+
     -match age
     -select features
     -20times 5-fold cross validation logistic regression  
 
 Terminal Results will be:
+
     -Static Analysis
     -Age Statistics by Survival Status:
     -Gender Statistics by Survival Status
