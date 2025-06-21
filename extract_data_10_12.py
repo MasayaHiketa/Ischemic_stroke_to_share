@@ -187,15 +187,35 @@ merged_df = pd.read_csv("select.csv", dtype={'subject_id': int}, parse_dates=['t
 print(f"select.csv にある患者数: {merged_df['subject_id'].nunique()}")
 print(merged_df.columns)
 
-merged_df['loadPath'] = merged_df['loadPath'].str.replace(
-    "M:\\",
-    "\\\\140.112.28.172\\mimic3wdb-matched-v1.0\\",  # ← 通常のエスケープ文字でOK
-    regex=False
-)
+import platform
+import os
 
-print("修正後パス:", merged_df['loadPath'].iloc[0])
+import platform
 
+def normalize_load_path(path):
+    os_type = platform.system()
 
+    if os_type == 'Windows':
+        replace_base = r"\\140.112.28.172\mimic3wdb-matched-v1.0\\"
+    elif os_type == 'Darwin':  # macOS
+        replace_base = "/Volumes/mimic3wdb-matched-v1.0/"
+    elif os_type == 'Linux':
+        replace_base = "/mnt/mimic3wdb-matched-v1.0/"
+    else:
+        raise OSError("Unsupported OS")
+
+    # 置換
+    path = path.replace("M:\\", replace_base)
+    path = path.replace("M:/", replace_base)
+
+    # Windows以外ならバックスラッシュをスラッシュに統一
+    if os_type != 'Windows':
+        path = path.replace("\\", "/")
+
+    return path
+
+# 適用
+merged_df['loadPath'] = merged_df['loadPath'].apply(normalize_load_path)
 all_hrv = []
 import os
 import shutil  # これを追加
