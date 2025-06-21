@@ -41,4 +41,5 @@ Terminal Results will be:
     -Gender Statistics by Survival Status
     -selected_features
     -Coefficients and OddRatio
-    -Logistic Regression AUC curve graph and each metrics values by all threshold( in all_threshold_metrics_0.001_time_time.csv)
+    -Logistic Regression AUC curve graph 
+    -Eeach metrics values by all threshold( in all_threshold_metrics_0.001_time_time.csv)
