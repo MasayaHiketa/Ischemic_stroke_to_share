@@ -1,4 +1,4 @@
-1.Extract 5-min window hrv data from mimic-3 data(for 2-4hours,6-8hours,10-12hours),it will take several hours for each.
+1.(Optional:You can skip)Extract 5-min window hrv data from mimic-3 data(for 2-4hours,6-8hours,10-12hours),it will take several hours for each.
 
 The extracted data csv  which I already did is 
 
