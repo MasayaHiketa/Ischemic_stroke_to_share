@@ -19,7 +19,7 @@ Terminal Results will be:
     -selected_features
     -Coefficients and OddRatio
     -Logistic Regression AUC curve graph 
-    -Eeach metrics values by all threshold( in all_threshold_metrics_0.001_time_time.csv)
+    -Each metrics values by all threshold( in all_threshold_metrics_0.001_time_time.csv)
 
 (Optional)Extract 5-min window hrv data from mimic-3 data(for 2-4hours,6-8hours,10-12hours),it will take several hours for each.
 
