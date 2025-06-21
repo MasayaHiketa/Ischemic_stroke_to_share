@@ -255,7 +255,7 @@ if os.path.exists(hrv_path):
     existing_ids = set(existing_df['subject_id'].unique())
 
 # === データ処理ループ ===
-for idx, row in merged_df.head(2).iterrows():
+for idx, row in merged_df.iterrows():
     subject_id = row['subject_id']
     hea_path = row['loadPath']
     ecg_datetime = row['ecgDatetime']
