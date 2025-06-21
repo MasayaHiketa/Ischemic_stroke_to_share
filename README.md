@@ -23,7 +23,8 @@ if you want to extract by yourself,
 
 
 2.Preprocessing data and logistic regression
-By typing thse command, you will get result.
+
+By typing these command, you will get result.
 
     python LR_2_4.py
     python LR_6_8.py
