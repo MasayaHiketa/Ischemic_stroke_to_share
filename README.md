@@ -35,13 +35,13 @@ if you want to extract by yourself,
     (for installing neccesary things)
 
     python extract_data_2_4.py
-    (extracted data will be extracted_data_2_4.csv)
+    (extracted data will be extracted_data_2_4_for_you.csv)
 
     python extract_data_6_8.py
-    (extracted data will be extracted_data_6_8.csv)
+    (extracted data will be extracted_data_6_8_for_you.csv)
 
     python extract_data_10_12.py
-    (extracted data will be extracted_data_10_12.csv)
+    (extracted data will be extracted_data_10_12_for_you.csv)
 
 
 
