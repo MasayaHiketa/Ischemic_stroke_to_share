@@ -7,8 +7,8 @@ Download whole file as zip and unarchive it,then by typing these command, you wi
 
 Which is doing
 
-    -match age
-    -select features
+    -Match age
+    -Select features
     -20times 5-fold cross validation logistic regression  
 
 Terminal Results will be:
