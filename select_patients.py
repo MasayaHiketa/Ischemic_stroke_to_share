@@ -7,7 +7,7 @@ icd_codes = ['43301', '43311', '43321', '43331', '43381', '43391', '43401', '434
 icd_cols = [f'icd9_code{str(i).zfill(2)}' for i in range(1, 40)]
 
 # BASICファイルから読み込み（ICD9コード列は文字列として）
-df = pd.read_csv('data/20241206_010627mimic-iii-wave-match-BasicTable-icd.csv', dtype={col: str for col in icd_cols})
+df = pd.read_csv('20241206_010627mimic-iii-wave-match-BasicTable-icd.csv', dtype={col: str for col in icd_cols})
 
 # フィルタ1: testDuring が "withinICU"
 df = df[df['testDuring'] == 'withinICU']
@@ -93,7 +93,7 @@ import pandas as pd
 from datetime import timedelta
 
 # データ読み込み
-scan_df = pd.read_csv('data/20241207_174624mimic-iii-wave-match-DataScan.csv', parse_dates=['ecgDate'])
+scan_df = pd.read_csv('20241207_174624mimic-iii-wave-match-DataScan.csv', parse_dates=['ecgDate'])
 time_df = pd.read_csv('time.csv', parse_dates=['time_minus_6h', 'time_minus_8h'])
 
 # ECG終了時間（ecgEndTime）を計算
