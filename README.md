@@ -1,21 +1,23 @@
+# Result
+
 ![](<スクリーンショット 2025-08-18 172512.png>)
-![](<Figure1.png>)
+![](<Figure_1.png.png>)
 
 
-Download whole file as zip and unarchive it,then by typing these command, you will get result.
+## Download whole file as zip and unarchive it,then by typing these command, you will get result.
 
     pip install -r requirement.txt
     python LR_2_4.py
     python LR_6_8.py
     python LR_10_12.py
 
-Which is doing
+## Which is doing
 
     -Match age
     -Select features
     -20times 5-fold cross validation logistic regression  
 
-Terminal Results will be:
+## Terminal Results will be:
 
     -Static Analysis
     -Age Statistics by Survival Status:
@@ -27,13 +29,13 @@ Terminal Results will be:
 
 (Optional)Extract 5-min window hrv data from mimic-3 data(for 2-4hours,6-8hours,10-12hours),it will take several hours for each.
 
-The extracted data csv  which I already did is 
+## The extracted data csv  which I already did is 
 
     extracted_data_2_4.csv
     extracted_data_6_8.csv
     extracted_data_10_12.csv
 
-if you want to extract by yourself,
+## if you want to extract by yourself,
 
     Conect to \\140.112.28.172\mimic3wdb-matched-v1.0
 
@@ -48,6 +50,7 @@ if you want to extract by yourself,
 
     python extract_data_10_12.py
     (extracted data will be extracted_data_10_12_for_you.csv)
+
 
 
 
