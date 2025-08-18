@@ -1,7 +1,9 @@
 # Result
 
 ![](<スクリーンショット 2025-08-18 172512.png>)
-![](<Figure_1.png.png>)
+
+# Logistic Regression
+![](<Figure_1.png>)
 
 
 ## Download whole file as zip and unarchive it,then by typing these command, you will get result.
@@ -50,6 +52,7 @@
 
     python extract_data_10_12.py
     (extracted data will be extracted_data_10_12_for_you.csv)
+
 
 
 
