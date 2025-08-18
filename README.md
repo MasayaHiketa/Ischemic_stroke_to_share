@@ -1,6 +1,5 @@
-![](<img width="800" height="600" alt="Figure_1" src="https://github.com/user-attachments/assets/fb2611b1-f7db-48c4-9902-f07ff31beb52" />
-)
-
+![](<スクリーンショット 2025-08-18 172512.png>)
+![](<Figure1.png>)
 
 
 Download whole file as zip and unarchive it,then by typing these command, you will get result.
@@ -49,6 +48,7 @@ if you want to extract by yourself,
 
     python extract_data_10_12.py
     (extracted data will be extracted_data_10_12_for_you.csv)
+
 
 
 
