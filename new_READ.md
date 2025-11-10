@@ -8,7 +8,11 @@
   
 <details>
 <summary>📘 Testing and Benchmarking ERAKDE-Based Features</summary>
+
+<embed src="photos/Loglikelyhood_experiment(2).pdf" type="application/pdf" width="100%" height="800px" />
+
 </details>
+
 
 <details>
 <summary>📘 Download</summary>
