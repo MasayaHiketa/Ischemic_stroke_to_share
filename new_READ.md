@@ -2,7 +2,8 @@
 <summary>📘 Logistic Regression Results and p-value Analysis</summary>
 
 **Experiment:** Logistic Regression Results and p-value Analysis
-**Dataset:** MIMIC-III ICU records  
+
+**Dataset:** MIMIC-III ICU records
 **Tool:** Logistic Regression, p-value, 5-fold cross-validation
 
 [📄 Open full PDF](./photos/Ischemic_Stroke_Mortality_Prediction(7).pdf)
