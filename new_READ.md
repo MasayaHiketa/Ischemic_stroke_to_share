@@ -13,7 +13,7 @@
 **Dataset:** MIMIC-III ICU records  
 **Tool:** Loglikelyhood, 10-fold cross-validation
 
-<embed src="photos/Loglikelyhood_experiment(2).pdf" type="application/pdf" width="100%" height="800px" />
+[📄 Open full PDF](./photos/Loglikelyhood_experiment(2).pdf)
 
 </details>
 
