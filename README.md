@@ -1,11 +1,28 @@
-# Result
+<details>
+<summary>📘 Logistic Regression Results and p-value Analysis</summary>
+  
+**Experiment:** Logistic Regression Results and p-value Analysis<br>
+**Dataset:** MIMIC-III ICU records<br>
+**Tool:** Logistic Regression, p-value, 5-fold cross-validation<br>
 
-![](<スクリーンショット 2025-08-18 172512.png>)
+[📄 Open full PDF](./photos/Ischemic_Stroke_Mortality_Prediction(7).pdf)
 
-# Logistic Regression
-![](<Figure_1.png>)
+</details>
+  
+<details>
+<summary>📘 Testing and Benchmarking ERAKDE-Based Features</summary>
+  
+**Experiment:** Log-likelihood evaluation for ERAKDE-derived HRV features<br>
+**Dataset:** MIMIC-III ICU records<br>
+**Tool:** Loglikelyhood, 10-fold cross-validation<br>
+
+[📄 Open full PDF](./photos/Loglikelyhood_experiment(2).pdf)
+
+</details>
 
 
+<details>
+<summary>📘 Download</summary>
 ## Download whole file as zip and unarchive it,then by typing these command, you will get result.
 
     pip install -r requirement.txt
@@ -52,6 +69,9 @@
 
     python extract_data_10_12.py
     (extracted data will be extracted_data_10_12_for_you.csv)
+
+</details>
+
 
 
 
