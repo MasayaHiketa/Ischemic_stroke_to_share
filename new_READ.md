@@ -4,6 +4,13 @@
   
 <details>
 <summary>📘 Logistic Regression Results and p-value Analysis</summary>
+
+**Experiment:** Log-likelihood evaluation for ERAKDE-derived HRV features  
+**Dataset:** MIMIC-III ICU records  
+**Tool:** Logistic Regression, p-value, 5-fold cross-validation
+
+[📄 Open full PDF](./photos/Ischemic_Stroke_Mortality_Prediction (7).pdf)
+
 </details>
   
 <details>
