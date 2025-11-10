@@ -1,5 +1,6 @@
 <details>
 <summary>📘 Logistic Regression Results and p-value Analysis</summary>
+  
 **Experiment:** Logistic Regression Results and p-value Analysis<br>
 **Dataset:** MIMIC-III ICU records<br>
 **Tool:** Logistic Regression, p-value, 5-fold cross-validation<br>
@@ -10,8 +11,9 @@
   
 <details>
 <summary>📘 Testing and Benchmarking ERAKDE-Based Features</summary>
-**Experiment:** Log-likelihood evaluation for ERAKDE-derived HRV features  <br>
-**Dataset:** MIMIC-III ICU records  <br>
+  
+**Experiment:** Log-likelihood evaluation for ERAKDE-derived HRV features<br>
+**Dataset:** MIMIC-III ICU records<br>
 **Tool:** Loglikelyhood, 10-fold cross-validation<br>
 
 [📄 Open full PDF](./photos/Loglikelyhood_experiment(2).pdf)
