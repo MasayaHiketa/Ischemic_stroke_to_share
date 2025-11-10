@@ -1,3 +1,5 @@
+<details>
+<summary>📘 詳細を見る</summary>
 # Result
 
 ![](<スクリーンショット 2025-08-18 172512.png>)
@@ -53,6 +55,7 @@
     python extract_data_10_12.py
     (extracted data will be extracted_data_10_12_for_you.csv)
 
+<details>
 
 
 
