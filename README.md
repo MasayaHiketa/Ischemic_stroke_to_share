@@ -1,6 +1,6 @@
 **Experiment Results:** 
 <details>
-<summary>📘 Logistic Regression Results and p-value Analysis</summary>
+<summary>📘 Logistic Regression Results and p-value Analysis</summary><br>
   
 **Experiment:** Logistic Regression Results and p-value Analysis<br>
 **Dataset:** MIMIC-III ICU records<br>
@@ -8,7 +8,7 @@
 [📄 Open full PDF](./photos/Ischemic_Stroke_Mortality_Prediction(7).pdf)<br>
 </details>
 <details>
-<summary>📘 Testing and Benchmarking ERAKDE-Based Features</summary>
+<summary>📘 Testing and Benchmarking ERAKDE-Based Features</summary><br>
   
 **Experiment:** Log-likelihood evaluation for ERAKDE-derived HRV features<br>
 **Dataset:** MIMIC-III ICU records<br>
@@ -69,6 +69,7 @@
     (extracted data will be extracted_data_10_12_for_you.csv)
 
 </details>
+
 
 
 
