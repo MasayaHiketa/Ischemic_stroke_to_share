@@ -1,8 +1,4 @@
 <details>
-<summary>📘 詳細を見る</summary>
-</details>
-  
-<details>
 <summary>📘 Logistic Regression Results and p-value Analysis</summary>
 
 **Experiment:** Log-likelihood evaluation for ERAKDE-derived HRV features  
