@@ -1,6 +1,6 @@
 <details>
 <summary>📘 Logistic Regression Results and p-value Analysis</summary>
-
+<br>
 **Experiment:** Logistic Regression Results and p-value Analysis<br>
 **Dataset:** MIMIC-III ICU records<br>
 **Tool:** Logistic Regression, p-value, 5-fold cross-validation<br>
@@ -11,7 +11,7 @@
   
 <details>
 <summary>📘 Testing and Benchmarking ERAKDE-Based Features</summary>
-  
+<br>
 **Experiment:** Log-likelihood evaluation for ERAKDE-derived HRV features  <br>
 **Dataset:** MIMIC-III ICU records  <br>
 **Tool:** Loglikelyhood, 10-fold cross-validation<br>
@@ -23,7 +23,7 @@
 
 <details>
 <summary>📘 Download</summary>
-
+<br>
 ## Download whole file as zip and unarchive it,then by typing these command, you will get result.
 
     pip install -r requirement.txt
