@@ -6,7 +6,7 @@
 **Dataset:** MIMIC-III ICU records<br>
 **Tool:** Logistic Regression, p-value, 5-fold cross-validation<br>
 [📄 Open full PDF](./photos/Ischemic_Stroke_Mortality_Prediction(7).pdf)<br>
-</details>
+</details><br>
 <details>
 <summary>📘 Testing and Benchmarking ERAKDE-Based Features</summary><br>
   
@@ -69,6 +69,7 @@
     (extracted data will be extracted_data_10_12_for_you.csv)
 
 </details>
+
 
 
 
