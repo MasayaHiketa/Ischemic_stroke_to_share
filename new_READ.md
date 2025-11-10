@@ -1,7 +1,7 @@
 <details>
 <summary>📘 Logistic Regression Results and p-value Analysis</summary>
 
-**Experiment:** Log-likelihood evaluation for ERAKDE-derived HRV features  
+**Experiment:** Logistic Regression Results and p-value Analysis
 **Dataset:** MIMIC-III ICU records  
 **Tool:** Logistic Regression, p-value, 5-fold cross-validation
 
