@@ -8,9 +8,11 @@
   
 <details>
 <summary>📘 Testing and Benchmarking ERAKDE-Based Features</summary>
+  
 **Experiment:** Log-likelihood evaluation for ERAKDE-derived HRV features  
 **Dataset:** MIMIC-III ICU records  
 **Model:** Logistic Regression, XGBoost, SVM
+
 <embed src="photos/Loglikelyhood_experiment(2).pdf" type="application/pdf" width="100%" height="800px" />
 
 </details>
