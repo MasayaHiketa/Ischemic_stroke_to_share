@@ -11,7 +11,7 @@
   
 **Experiment:** Log-likelihood evaluation for ERAKDE-derived HRV features  
 **Dataset:** MIMIC-III ICU records  
-**Model:** Logistic Regression, XGBoost, SVM
+**Tool:** Loglikelyhood,10-fold cross-validation
 
 <embed src="photos/Loglikelyhood_experiment(2).pdf" type="application/pdf" width="100%" height="800px" />
 
