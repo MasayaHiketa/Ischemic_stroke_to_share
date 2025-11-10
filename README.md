@@ -23,6 +23,7 @@
 
 <details>
 <summary>📘 Download</summary>
+  
 ## Download whole file as zip and unarchive it,then by typing these command, you will get result.
 
     pip install -r requirement.txt
@@ -71,6 +72,7 @@
     (extracted data will be extracted_data_10_12_for_you.csv)
 
 </details>
+
 
 
 
